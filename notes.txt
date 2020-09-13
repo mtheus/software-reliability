@@ -12,3 +12,9 @@ cd frontend
 npm install
 gulp
 gulp build:dist
+rm -rf .
+rm -rf ../site/public/*
+cp -r dist/* ../site/public/
+cd ../site
+firebase deploy
+firebase deploy --project software-reliability

@@ -1,0 +1,4 @@
+**/public
+site/.firebase/
+**/*.log
+
