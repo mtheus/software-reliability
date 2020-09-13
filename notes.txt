@@ -1,0 +1,14 @@
+
+FrontEnd, 
+
+Escolhi um tema rápido para iniciar o trabalho
+
+https://github.com/themesberg/volt-bootstrap-5-dashboard
+https://themesberg.com/product/admin-dashboard/volt-bootstrap-5-dashboard
+https://themesberg.com/docs/volt-bootstrap-5-dashboard/getting-started/quick-start/
+
+
+cd frontend 
+npm install
+gulp
+gulp build:dist
