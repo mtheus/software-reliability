@@ -2,3 +2,4 @@
 site/.firebase/
 **/*.log
 
+software-reliability-*.json

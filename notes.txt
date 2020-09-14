@@ -18,6 +18,7 @@ cd ..
 rm -rf site/public/*
 cp -r frontend/dist/* site/public/
 cp -r collector/* site/public/
+cp /home/matheusneves/Downloads/software-reliability-b5225e25c67e.json site/functions/software-reliability-b5225e25c67e.json
 
 ## Publish 
 cd site
