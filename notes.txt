@@ -12,9 +12,17 @@ cd frontend
 npm install
 gulp
 gulp build:dist
-rm -rf .
-rm -rf ../site/public/*
-cp -r dist/* ../site/public/
-cd ../site
-firebase deploy
+cd ..
+
+## Deploy
+rm -rf site/public/*
+cp -r frontend/dist/* site/public/
+cp -r collector/* site/public/
+
+## Publish 
+cd site
 firebase deploy --project software-reliability
+cd ..
+
+
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))

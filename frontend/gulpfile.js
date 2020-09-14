@@ -1,20 +1,3 @@
-/*
-
-=========================================================
-* Volt - Bootstrap 5 Admin Dashboard
-=========================================================
-
-* Product Page: https://themesberg.com/product/admin-dashboard/volt-bootstrap-5-dashboard
-* Copyright 2020 Themesberg (https://www.themesberg.com)
-
-* Designed and coded by https://themesberg.com
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. Please contact us to request a removal.
-
-*/
-
 var autoprefixer = require('gulp-autoprefixer');
 var browserSync = require('browser-sync').create();
 var cleanCss = require('gulp-clean-css');
